@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		225CED811EE1C68500B4A94A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 225CED801EE1C68500B4A94A /* main.m */; };
+		225CED891EE1C71D00B4A94A /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 225CED881EE1C71D00B4A94A /* Shape.m */; };
+		225CED8C1EE1CA5F00B4A94A /* NSString+Appending.m in Sources */ = {isa = PBXBuildFile; fileRef = 225CED8B1EE1CA5F00B4A94A /* NSString+Appending.m */; };
+		225CED8F1EE1CE7C00B4A94A /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 225CED8E1EE1CE7C00B4A94A /* Player.m */; };
+		225CED921EE1D38500B4A94A /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 225CED911EE1D38500B4A94A /* Car.m */; };
+		225CED951EE1D56F00B4A94A /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = 225CED941EE1D56F00B4A94A /* Driver.m */; };
+		225CED981EE1D6B700B4A94A /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 225CED971EE1D6B700B4A94A /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,18 @@
 /* Begin PBXFileReference section */
 		225CED7D1EE1C68500B4A94A /* Demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Demo; sourceTree = BUILT_PRODUCTS_DIR; };
 		225CED801EE1C68500B4A94A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		225CED871EE1C71D00B4A94A /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		225CED881EE1C71D00B4A94A /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		225CED8A1EE1CA5F00B4A94A /* NSString+Appending.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Appending.h"; sourceTree = "<group>"; };
+		225CED8B1EE1CA5F00B4A94A /* NSString+Appending.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Appending.m"; sourceTree = "<group>"; };
+		225CED8D1EE1CE7C00B4A94A /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		225CED8E1EE1CE7C00B4A94A /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		225CED901EE1D38500B4A94A /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		225CED911EE1D38500B4A94A /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		225CED931EE1D56F00B4A94A /* Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Driver.h; sourceTree = "<group>"; };
+		225CED941EE1D56F00B4A94A /* Driver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Driver.m; sourceTree = "<group>"; };
+		225CED961EE1D6B700B4A94A /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		225CED971EE1D6B700B4A94A /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				225CED801EE1C68500B4A94A /* main.m */,
+				225CED871EE1C71D00B4A94A /* Shape.h */,
+				225CED881EE1C71D00B4A94A /* Shape.m */,
+				225CED8A1EE1CA5F00B4A94A /* NSString+Appending.h */,
+				225CED8B1EE1CA5F00B4A94A /* NSString+Appending.m */,
+				225CED8D1EE1CE7C00B4A94A /* Player.h */,
+				225CED8E1EE1CE7C00B4A94A /* Player.m */,
+				225CED901EE1D38500B4A94A /* Car.h */,
+				225CED911EE1D38500B4A94A /* Car.m */,
+				225CED931EE1D56F00B4A94A /* Driver.h */,
+				225CED941EE1D56F00B4A94A /* Driver.m */,
+				225CED961EE1D6B700B4A94A /* Dog.h */,
+				225CED971EE1D6B700B4A94A /* Dog.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -119,7 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225CED921EE1D38500B4A94A /* Car.m in Sources */,
+				225CED951EE1D56F00B4A94A /* Driver.m in Sources */,
+				225CED8F1EE1CE7C00B4A94A /* Player.m in Sources */,
 				225CED811EE1C68500B4A94A /* main.m in Sources */,
+				225CED981EE1D6B700B4A94A /* Dog.m in Sources */,
+				225CED891EE1C71D00B4A94A /* Shape.m in Sources */,
+				225CED8C1EE1CA5F00B4A94A /* NSString+Appending.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
